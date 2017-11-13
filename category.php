@@ -1,6 +1,7 @@
 <?php
 class Category implements JsonSerializable {
-    private $id;
+    //cody was here
+	private $id;
     private $name;
 
     public function __construct($id, $name) {
