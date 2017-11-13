@@ -1,7 +1,7 @@
 <?php
 class Category implements JsonSerializable {
     private $id;
-    private $name;
+    private $username;
 
     public function __construct($id, $name) {
         $this->id = $id;
@@ -16,11 +16,11 @@ class Category implements JsonSerializable {
         $this->id = $value;
     }
 
-    public function getName() {
+    public function getUsername() {
         return $this->name;
     }
 
-    public function setName($value) {
+    public function setUsername($value) {
         $this->name = $value;
     }
     
